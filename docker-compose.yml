@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  my-service:
+    build: .
+    volumes:
+      - ./data-volume:/usr/local/bin
+
